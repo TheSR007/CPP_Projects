@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "Debug using GDB",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "miDebuggerPath": "C:\\Program Files\\Msys64\\clang64\\bin\\gdb.exe",
+            "preLaunchTask": "C/C++: g++.exe build active file",
+        },
+        {
+            "name": "Debug using LLDB",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",       
+            "preLaunchTask": "C/C++: clang++.exe build active file",  
+        }       
+    ]
+}

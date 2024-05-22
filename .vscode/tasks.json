@@ -3,8 +3,8 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "C/C++: clang++.exe build active file",
-			"command": "C:\\Program Files\\Msys64\\clang64\\bin\\clang++.exe",
+			"label": "C++: clang++ build active file",
+			"command": "clang++",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-Wall",
@@ -21,12 +21,13 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "Custom"
+			"problemMatcher": ["$gcc"],
+			"detail": "Custom build"
 		},
 		{
-			"type": "cppbuild",
-			"label": "C/C++: g++.exe build active file",
-			"command": "C:\\Program Files\\Msys64\\clang64\\bin\\g++.exe",
+			"type": "shell",
+			"label": "C++: g++ build active file",
+			"command": "g++",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-Wall",
@@ -46,7 +47,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "Custom"
+			"detail": "Custom build"
 		}
 	]
 }

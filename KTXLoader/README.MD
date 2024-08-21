@@ -1,19 +1,19 @@
-# GifLoader Example for ImGui in OpenGL 
+# KTXLoader Example for ImGui in OpenGL 
 
-## This is an Example to Load gif in ImGui using OpenGL and Glfw which was supposed to be ported to Vulkan for TSM and SML
+## This is an Example to Load ktx files in ImGui using OpenGL, Glfw and KTX which was supposed to be ported to Vulkan for TSM and SML
 
 ### Dependencies
 - GLFW3
 - ImGui
 - OpenGL
-- STB_Image
+- KTX
 
 ## Usage
-You need the GifLoader.exe and any gif
+You need the KTXLoader.exe and any ktx File
 ```cmd
-GifLoader path/to/gif/name.gif
+KTXLoader path/to/ktx/name.ktx
 ```
-or Just Run GifLoader and then put the gif path
+or Just Run KTXLoader and then put the ktx path
 
 ## Buiding
 ALL the lib are inside and Cmake is setup you just need to have OpenGL setup in your system so Cmake can find it using 

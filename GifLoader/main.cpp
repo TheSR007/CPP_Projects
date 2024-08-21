@@ -113,7 +113,6 @@ int main(int argc, char** argv) {
     glfwSwapInterval(1);
 
     // Loading The Gif
-
     GifLoader gifLoader;
     bool gifLoaded = false;
     std::string gifPath;
